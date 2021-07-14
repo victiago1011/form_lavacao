@@ -12,22 +12,20 @@ Crie uma pasta (no seu computador) para o projeto;
 
 Após fazer o Download e extrair os arquivos para essa pasta que você criou, será necessário seguir alguns passos: 
 
-* Instalar o Node.js (versão LTS recomendada) - [Baixar Node.js](https://nodejs.org/en)
+* Instalar o Node.js (versão 14.17.3 LTS recomendada) - [Baixar Node.js](https://nodejs.org/en)
 
-**Acessar Terminal**
+<br/> **Acessar Terminal**
 
-* Digitar o seguinte comando:  `npm install -g create-react-app`
-* Dentro da pasta form-backend, digitar o seguinte comando: `npm install express express-validator cors`
-* Dentro da pasta form-frontend, digitar o seguinte comando: `npm install react-router-dom express-validator axios`
-* Dentro da pasta form-frontend, digitar o seguinte comando: `npm install reactstrap`
-* Dentro da pasta form-frontend, digitar o seguinte comando: `npm install bootstrap`
+* Acessar o diretório que vc criou (ex.: Projeto), depois acessar a pasta baixada >>> :file_folder:form-backend
+* Digitar o seguinte comando:  `npm install` >>> serve para instalar a pasta :file_folder:node_modules dentro do diretório form-backend
+
+* Voltar para o diretório Projeto (comando: `cd ..`), acessar a outra pasta baixada >>> :file_folder:form-frontend
+* Digitar o seguinte comando:  `npm install` >>> serve para instalar a pasta :file_folder:node_modules dentro do diretório form-frontend
 
 
 **Executar Front-end e Back-end**
 
-Para executar os dois ao mesmo tempo, é necessário abrir dois terminais, entrar em cada pasta, e digitar os seguintes comandos:
-* Form-frontend: `yarn start` (caso você não tenha o yarn instalado, digite: `npm install yarn`
-* Form-Backend: `node server.js`
+Para executar os dois ao mesmo tempo, é necessário abrir dois terminais, entrar em cada pasta, e digitar o seguinte comando: `npm start` 
 
 Para cancelar a execução, basta apertar `Ctrl+c` no terminal.
 
